@@ -1,0 +1,14 @@
+Create a rest controller for followings:
+
+1) Create GetMapping  (/get) result: "get from controller
+2) Create PostMapping  (/post) result: "post from controller
+3) Create PutMapping  (/put) result: "put from controller
+4) Create DeletetMapping  (/delete) result: "delete from controller
+
+Test and verify with post man.
+
+5) Adde property profile test and dev
+6) add property access.firstname=
+                access.lastname=
+
+                read this value using @Value annotation.

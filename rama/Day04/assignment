@@ -1,0 +1,41 @@
+Create the microservice application: calculator-app  using starter-spring.io
+
+Create the following rest controller:GetMapping
+
+1) /add (request parameter a,request parameter b)
+
+return  a+b;
+
+Example: @GetMapping("/add")
+             public double add(@RequestParam("a") double a,@RequestParam("b") double b){
+                 return a+b;
+             }
+
+2) /sub (request parameter a,request parameter b)
+
+return  a-b;
+
+3) /mul (request parameter a,request parameter b)
+
+return  a*b;
+
+4) /div (request parameter a,request parameter b)
+
+return  a/b;
+
+Create the read me file and update the folowings
+
+Build application
+
+start application
+
+swagger url
+
+Note: create the two profiles (dev and prod)
+
+dev: - apllication should run on port 8081
+prod: - application should run on 8082
+
+Add single securith
+
+USER role : username: user123 password: password123

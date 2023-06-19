@@ -1,0 +1,49 @@
+Create the microservice application: student-app  using starter-spring.io
+
+Student:
+name
+roll
+schoolName
+age
+
+Class StudentOperation
+appendData(String str1,String str2)
+return str1+str2
+
+Class MyDataOperation
+
+findprimenumbers(Int count){
+find all prime nuber between 0 to count.
+
+add two student String(name and age)
+
+Create the following rest controller:
+
+1) /create/student (@RequestBody student) Post
+
+return student;
+
+
+2) /get/student (request parameter name
+                                   roll
+                                   schoolName
+                                   age) Get
+
+return  student;
+
+3) /get/append (request name ,request age ) Get
+
+return  studentOperation.addData(name,age);
+
+4) /findPrime/{count} (String count) Get
+
+return  List<int>;
+
+Create the read me file and update the folowings
+
+Build application
+
+start application
+
+swagger url
+

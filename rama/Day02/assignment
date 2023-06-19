@@ -1,0 +1,7 @@
+Create a new application for String
+
+1) Write a method to reverse string(String)
+2) Write method Is string is pallindrome (boolean)
+3) Append or concat two string and return result(Retrun String)
+
+Write test cases with 80% test coverage.
